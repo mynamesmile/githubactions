@@ -23,3 +23,6 @@ jobs:
 
       - name: List files
         run: ls -ltra
+      
+      - name: copy file
+        run: cp dragon.txt  dragon.txt5
